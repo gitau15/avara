@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-=======
   "name": "avara-landing",
   "private": true,
   "version": "0.0.0",
@@ -11,35 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
->>>>>>> c09b309 (Fix build configuration and deploy)
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-    "framer-motion": "^10.0.0",
-    "lucide-react": "^0.263.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.3.9"
-  }
-}
-```
-
-**3. File Structure Issues**
-
-Ensure your file structure looks like this:
-```
-project-root/
-├── index.html (in root, not in src/)
-├── src/
-│   └── app.tsx (or App.tsx)
-├── package.json
-├── vite.config.ts
-└── vercel.json
-=======
     "framer-motion": "^10.16.0",
     "lucide-react": "^0.263.1"
   },
@@ -54,4 +25,3 @@ project-root/
     "tailwindcss": "^3.3.2"
   }
 }
->>>>>>> c09b309 (Fix build configuration and deploy)
