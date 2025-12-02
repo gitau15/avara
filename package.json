@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.0.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
+  }
+}
+```
+
+**3. File Structure Issues**
+
+Ensure your file structure looks like this:
+```
+project-root/
+├── index.html (in root, not in src/)
+├── src/
+│   └── app.tsx (or App.tsx)
+├── package.json
+├── vite.config.ts
+└── vercel.json
